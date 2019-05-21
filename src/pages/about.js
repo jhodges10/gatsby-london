@@ -13,25 +13,21 @@ const AboutPage = ({ data }, location) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
-        title="ABout"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-      />
+      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Clean, minimal, and deeply customisable. London is a theme made for
-            people who appreciate simple lines.
+          <h2 id="a-new-website-for-a-new-year-">
+            A new website for a new year.
           </h2>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
+            <figcaption>That's me ^</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          <h3 id="Who">Who?</h3>
           <p>
             London comes with photo-centric main layout best suited to
             photography, graphics portfolios and other image-heavy uses.
@@ -65,7 +61,9 @@ const indexQuery = graphql`
         title
       }
     }
-    benchAccounting: file(relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }) {
+    benchAccounting: file(
+      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
+    ) {
       childImageSharp {
         fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid

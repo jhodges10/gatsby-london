@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, title, twitterURL, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     return (
       <div className="site-wrapper">
@@ -42,29 +42,29 @@ class Layout extends React.Component {
             <div className="site-head-right">
               <div className="social-links">
                 <a
-                  href="https://www.facebook.com"
-                  title="Facebook"
+                  href={"https://github.com" + "jhodges10"}
+                  title="Github"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Facebook
+                  Github
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href={"https://twitter.com/" + "reelsnmags"}
                   title="Twitter"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Twitter
                 </a>
-                <Link
-                  to={`/rss.xml`}
-                  title="RSS"
+                <a
+                  href={"https://linkedin.com/" + "in/jhodges-1/"}
+                  title="Linkedin"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  RSS
-                </Link>
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
