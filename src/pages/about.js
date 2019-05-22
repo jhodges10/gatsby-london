@@ -28,10 +28,7 @@ const AboutPage = ({ data }, location) => {
             <figcaption>That's me ^</figcaption>
           </figure>
           <h3 id="Who">Who?</h3>
-          <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
-          </p>
+          <p>From the east coast to the west coast, I've seen it all.</p>
           <p>
             Both post and page templates are light and minimal, with all the
             focus on the content while the design of the theme gets out of the
