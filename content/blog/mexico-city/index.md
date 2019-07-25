@@ -4,6 +4,7 @@ date: "2019-07-26T22:40:32.169Z"
 thumbnail: ./wework.jpg
 description: Living outside the US
 video_url:
+usethumbnail: true
 ---
 
 # Mexico City

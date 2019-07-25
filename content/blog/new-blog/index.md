@@ -3,7 +3,7 @@ title: New Blog
 date: "2019-08-01T22:12:03.284Z"
 thumbnail: ./blog_image.jpg
 description: "Gatsby, Static Sites, and Progressive Web Apps"
-video_url:
+usethumbnail: false
 ---
 
 Last year I launched a new version of my website built in raw HTML with the help of HTML5up and it was a lot of work building things without templates.

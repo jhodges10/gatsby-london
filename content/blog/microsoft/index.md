@@ -6,7 +6,11 @@ thumbnail: ./microsoft.png
 video_url:
 ---
 
-## Microsoft 12 Days of Deals
+#### Intro Animation
+
+![](intro_v06_4k.mp4)
+
+### Credits
 
 **Client:** [Contend](http://contendco.com/)
 

@@ -33,11 +33,40 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1360,
+              maxWidth: 720,
               withWebp: true,
               showCaptions: true,
               quality: 90,
               wrapperStyle: `margin: 7vw 0;`,
+            },
+          },
+          {
+            resolve: `gatsby-remark-videos`,
+            options: {
+              pipelines: [
+                {
+                  name: "vp9",
+                  transcode: chain =>
+                    chain
+                      .videoCodec("libvpx-vp9")
+                      .noAudio()
+                      .outputOptions(["-crf 20", "-b:v 0"]),
+                  maxHeight: 480,
+                  maxWidth: 900,
+                  fileExtension: "webm",
+                },
+                {
+                  name: "h264",
+                  transcode: chain =>
+                    chain
+                      .videoCodec("libx264")
+                      .noAudio()
+                      .videoBitrate("1000k"),
+                  maxHeight: 480,
+                  maxWidth: 900,
+                  fileExtension: "mp4",
+                },
+              ],
             },
           },
           {

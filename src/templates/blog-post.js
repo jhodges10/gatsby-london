@@ -27,20 +27,10 @@ class BlogPostTemplate extends React.Component {
             <p class="post-content-excerpt">{post.frontmatter.description}</p>
           )}
 
-          {post.frontmatter.thumbnail && (
-            <div className="post-content-image">
-              <Img
-                className="kg-image"
-                fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
-                alt={post.frontmatter.title}
-              />
-            </div>
-          )}
-
           {post.frontmatter.video_url && (
-            <div classname="video-wrapper">
+            <div className="video-wrapper">
               <ReactPlayer
-                classname="react-player"
+                className="react-player"
                 url={post.frontmatter.video_url}
                 width="100%"
                 height="100%"
@@ -48,22 +38,21 @@ class BlogPostTemplate extends React.Component {
             </div>
           )}
 
-          {post.frontmatter.looping_video && (
-            <div>
-              <ReactPlayer
-                classname="react-player"
-                url={post.frontmatter.looping_video.relativePath}
-                width="100%"
-                height="100%"
-                autoplay={true}
-                playing={true}
-              />
-            </div>
-          )}
           <div
             className="post-content-body"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
+
+          {post.frontmatter.usethumbnail &&
+            (post.frontmatter.thumbnail && (
+              <div className="kg-card kg-image-card">
+                <Img
+                  className="kg-image"
+                  fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+                  alt={post.frontmatter.title}
+                />
+              </div>
+            ))}
 
           <footer className="post-content-footer">
             {/* There are two options for how we display the byline/author-info.
@@ -96,9 +85,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         video_url
-        looping_video {
-          relativePath
-        }
+        usethumbnail
         thumbnail {
           childImageSharp {
             fluid(maxWidth: 1360) {
