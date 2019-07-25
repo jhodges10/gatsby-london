@@ -13,7 +13,7 @@ const AboutPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="ABout" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
@@ -22,28 +22,22 @@ const AboutPage = ({ data }, location) => {
           </h2>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
-              fluid={data.benchAccounting.childImageSharp.fluid}
+              fluid={data.aboutImage.childImageSharp.fluid}
               className="kg-image"
             />
             <figcaption>That's me ^</figcaption>
           </figure>
-          <h3 id="Who">Who?</h3>
-          <p>From the east coast to the west coast, I've seen it all.</p>
+          <h3 id="Who">New blog, who dis?</h3>
           <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
+            From the east coast to the west coast, and everywhere inbetween.
           </p>
           <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
+            I'm a self-proclaimed polymath with a knack for being an autodidact.
+          </p>
+          <p>
+            I love learning. Whether it's figuring out Docker and Kubernetes
+            with Rancher, or how to simulate an exploding building or Houdini
+            and then rending it with Clarisse - I'm interested.
           </p>
         </div>
       </article>
@@ -58,9 +52,7 @@ const indexQuery = graphql`
         title
       }
     }
-    benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
-    ) {
+    aboutImage: file(relativePath: { eq: "jeff.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid

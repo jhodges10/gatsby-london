@@ -712,3 +712,23 @@ body {
 .page-template .post-content-body h3 {
   text-align: center;
 }
+
+.video-wrapper {
+  position: relative;
+}
+
+.video-wrapper:before {
+  display: block;
+  padding-top: 56.25%;
+  content: "";
+}
+
+.video-wrapper:div {
+  position: absolute;
+  padding-left: 32px;
+  padding-right: 32px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

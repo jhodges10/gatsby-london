@@ -1,8 +1,9 @@
 ---
 title: Dash Nexus
-date: "2019-05-06"
+date: "2019-05-06T22:40:32.169Z"
 thumbnail: ./nexus_1.png
 description: Full-Stack Decentralized Governance Progressive Web App
+video_url:
 ---
 
 ### My Role
@@ -28,6 +29,7 @@ Once we knew which features were most important, we started putting together moc
 ### Tech Stack
 
 - Cloudflare
+- Google Analytics
 - AWS
 - Heroku
 - Jira
@@ -38,4 +40,4 @@ Once we knew which features were most important, we started putting together moc
 - Docker
 - Postgres
 - Redis
-- GatsbyJS
+- DashD

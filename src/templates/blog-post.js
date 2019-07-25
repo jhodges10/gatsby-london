@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-
+import ReactPlayer from "react-player"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -37,6 +37,29 @@ class BlogPostTemplate extends React.Component {
             </div>
           )}
 
+          {post.frontmatter.video_url && (
+            <div classname="video-wrapper">
+              <ReactPlayer
+                classname="react-player"
+                url={post.frontmatter.video_url}
+                width="100%"
+                height="100%"
+              />
+            </div>
+          )}
+
+          {post.frontmatter.looping_video && (
+            <div>
+              <ReactPlayer
+                classname="react-player"
+                url={post.frontmatter.looping_video.relativePath}
+                width="100%"
+                height="100%"
+                autoplay={true}
+                playing={true}
+              />
+            </div>
+          )}
           <div
             className="post-content-body"
             dangerouslySetInnerHTML={{ __html: post.html }}
@@ -72,6 +95,10 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        video_url
+        looping_video {
+          relativePath
+        }
         thumbnail {
           childImageSharp {
             fluid(maxWidth: 1360) {

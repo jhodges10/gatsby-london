@@ -36,7 +36,7 @@ module.exports = {
               maxWidth: 1360,
               withWebp: true,
               showCaptions: true,
-              quality: 75,
+              quality: 90,
               wrapperStyle: `margin: 7vw 0;`,
             },
           },
@@ -46,9 +46,17 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          // `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+            },
+          },
         ],
       },
     },
