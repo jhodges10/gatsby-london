@@ -6,6 +6,12 @@ description: Full-Stack Decentralized Governance Progressive Web App
 video_url:
 ---
 
+<div class="kg-card kg-image-card">
+
+![UI](./nexus_1.png)
+
+<div>
+
 ### My Role
 
 My role on the project was both as a project managaer and an occasional code contributor.
