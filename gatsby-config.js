@@ -26,20 +26,11 @@ module.exports = {
         name: `assets`,
       },
     },
+    `gatsby-plugin-ffmpeg`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 720,
-              withWebp: true,
-              showCaptions: true,
-              quality: 90,
-              wrapperStyle: `margin: 7vw 0;`,
-            },
-          },
           {
             resolve: `gatsby-remark-videos`,
             options: {
@@ -67,6 +58,16 @@ module.exports = {
                   fileExtension: "mp4",
                 },
               ],
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 720,
+              withWebp: true,
+              showCaptions: true,
+              quality: 90,
+              wrapperStyle: `margin: 7vw 0;`,
             },
           },
           {
