@@ -52,6 +52,9 @@ module.exports = {
                     chain
                       .videoCodec("libx264")
                       .noAudio()
+                      .addOption("-profile:v", "main")
+                      .addOption("-pix_fmt", "yuv420p")
+                      .outputOptions(["-movflags faststart"])
                       .videoBitrate("1000k"),
                   maxHeight: 480,
                   maxWidth: 900,
