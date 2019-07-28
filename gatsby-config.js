@@ -70,7 +70,7 @@ module.exports = {
               withWebp: true,
               showCaptions: true,
               quality: 90,
-              wrapperStyle: `margin: 7vw 0;`,
+              wrapperStyle: `margin: 5vw 0;`,
             },
           },
           {
@@ -79,7 +79,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          // `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           {
@@ -90,6 +89,7 @@ module.exports = {
               noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
             },
           },
+          `gatsby-remark-prismjs`,
         ],
       },
     },
