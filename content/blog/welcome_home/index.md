@@ -10,3 +10,11 @@ usethumbnail: true
 Matt Wauhkonen, Zach Hobesh, Daniel Corona, and myself spent another Christmas vacation finishing up the many screen-replacement shots from the film.
 
 This included some especially difficult tracks in mocha Pro because of the anamorphic lenses used during filming.
+
+### Example
+
+![](original.mp4)
+
+![](tracked.mp4)
+
+![](composited.mov)
