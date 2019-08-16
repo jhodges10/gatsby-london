@@ -1,18 +1,22 @@
 ---
-title: K-12
+title: K-12 (2019)
 date: "2019-05-20T22:40:32.169Z"
 thumbnail: ./k-12-cover.jpg
 description: VFX Supervisor
 video_url: https://www.youtube.com/watch?v=xMJNm24n4Ok
 ---
 
-I was the VFX Supervisor on K-12, which shot in Budapest over the course of a month and a half, and then through post-production in Los Angeles with Frame 48.
+I had the opportunity to work once again with the team at Frame 48 on another awesome project. This time as the VFX Supervisor on K-12, a film which shot in Budapest over the course of a month and a half, and then through post-production in Los Angeles.
 
-We did everything from clean-up to full-cg shots, with a lot of compositing of 2d and 3d elements.
+We brought on specialists from around the world to build vegetation, underwater worlds, run simulations, create architectural visualizations, and roto.
+
+We did everything from clean-up to full-cg shots, with a lot of compositing, for a total of 350+ shots.
 
 ##Team
 
 **Seth Josephson** - Post Producer
+
+**Jeff Hodges** - VFX Supervisor
 
 **Julian Conner** - Producer
 

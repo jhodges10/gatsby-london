@@ -41,7 +41,8 @@ module.exports = {
                     chain
                       .videoCodec("libvpx-vp9")
                       .noAudio()
-                      .outputOptions(["-crf 20", "-b:v 0"]),
+                      .outputOptions(["-crf 20", "-b:v 0"])
+                      .addOption("-threads", "8"),
                   maxHeight: 480,
                   maxWidth: 900,
                   fileExtension: "webm",
@@ -55,7 +56,8 @@ module.exports = {
                       .addOption("-profile:v", "main")
                       .addOption("-pix_fmt", "yuv420p")
                       .outputOptions(["-movflags faststart"])
-                      .videoBitrate("1000k"),
+                      .videoBitrate("1000k")
+                      .addOption("-threads", "8"),
                   maxHeight: 480,
                   maxWidth: 900,
                   fileExtension: "mp4",
@@ -73,12 +75,6 @@ module.exports = {
               wrapperStyle: `margin: 5vw 0;`,
             },
           },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           {
@@ -87,6 +83,12 @@ module.exports = {
               width: 800,
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
           `gatsby-remark-prismjs`,

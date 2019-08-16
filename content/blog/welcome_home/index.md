@@ -11,10 +11,6 @@ Matt Wauhkonen, Zach Hobesh, Daniel Corona, and myself spent another Christmas v
 
 This included some especially difficult tracks in mocha Pro because of the anamorphic lenses used during filming.
 
-### Example
+#### Example breakdown
 
-![](original.mp4)
-
-![](tracked.mp4)
-
-![](composited.mov)
+![](3-up.mp4)

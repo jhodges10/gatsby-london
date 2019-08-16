@@ -42,6 +42,14 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
+                href="https://github.com/jhodges10"
+                title="Github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
                 href="https://twitter.com/reelsnmags"
                 title="Twitter"
                 target="_blank"
