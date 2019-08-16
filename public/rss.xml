@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JeffHQ.com]]></title><description><![CDATA[VFX Supervisor // Software Developer]]></description><link>https://jeffhq.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 16 Aug 2019 00:41:34 GMT</lastBuildDate><item><title><![CDATA[New Blog]]></title><description><![CDATA[Last year I launched a new version of my website built in raw HTML with the help of HTML5up and it was a lot of work building things without…]]></description><link>https://jeffhq.com/new-blog/</link><guid isPermaLink="false">https://jeffhq.com/new-blog/</guid><pubDate>Thu, 01 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Last year I launched a new version of my website built in raw HTML with the help of HTML5up and it was a lot of work building things without templates.&lt;/p&gt;
+&lt;p&gt;A couple of months after I did that, I learned about Gatsby and fell in love with its component-based React + GraphQL build system that make creating a site like this as simple as customizing a template (or starting from scratch), writing some posts, pushing to Github and auto-deploying to Netlify!&lt;/p&gt;
+&lt;p&gt;The out-of-the-box functionality that Gatsby provides includes SEO and Progressive Web App functionality courtesy of an auto-built service worker that adds the ability to install your website or blog as an application to the home screen of your phone, as well as providing offline functionality.&lt;/p&gt;
+&lt;h3&gt;Gatsby&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Netlify&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Netlify is a San Francisco-based cloud computing company that offers hosting and serverless backend services for static websites. It features continuous deployment from Git across a global application delivery network, serverless form handling, support for AWS Lambda functions, and full integration with Let’s Encrypt. Wikipedia&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Progressive Web Apps&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Progressive web apps are the next step for the web. They bridge the gap between the web we’re used to, and the power and functionality that only native code has been able to provide until recently.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most people don’t realize this, but javascript is REALLY fast these days, with some performance metrics putting it behind compiled code like C++ by a factor of 2x, which is a big deal!&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Mexico City]]></title><description><![CDATA[The three months I spent in Budapest last fall working on K-12 opened my eyes to the idea of living and working outside of the United States…]]></description><link>https://jeffhq.com/mexico-city/</link><guid isPermaLink="false">https://jeffhq.com/mexico-city/</guid><pubDate>Fri, 26 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;The three months I spent in Budapest last fall working on K-12 opened my eyes to the idea of living and working outside of the United States.&lt;/p&gt;
+&lt;p&gt;I had an opportunity in between leases on apartments and decided to head down to Mexico for a month to split an apartment with a friend of mine, Dan Pierson, the founder of &lt;a href=&quot;https://joinbolt.com&quot;&gt;Bolt Collective&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Whilst down there I worked remotely on a number of projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continued development on &lt;a href=&quot;https://app.dashnexus.org&quot;&gt;Dash Nexus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A new software project for &lt;a href=&quot;https://www.hodgesbadge.com&quot;&gt;Hodges Badge Company&lt;/a&gt; to manage a new Cold Foil Printer&lt;/li&gt;
+&lt;li&gt;A data science project through &lt;a href=&quot;https://www.northatlantic.tech&quot;&gt;North Atlantic Tech&lt;/a&gt; utilizing Python, Docker, AWS, Redis, GraphQL, Hasura, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;kg-card kg-image-card&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/19976f9965b925f723b91ae6b78ec51e/09453/wework.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 720px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.7513586956522%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQCAwUG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAFpjOkmmXhc9QzCWBgTNtBzIBv/xAAdEAACAgMAAwAAAAAAAAAAAAABAgASAwQhMjNB/9oACAEBAAEFAgYoJlYz0i7LgghhsA2vzX9WTsXGsQqFXx+z/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEg/9oACAEDAQE/AQ4//8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEg/9oACAECAQE/AQo//8QAHhAAAQMEAwAAAAAAAAAAAAAAABARMQEhImESQZH/2gAIAQEABj8CW4/HEehoku/plPekgov/xAAdEAEAAgIDAQEAAAAAAAAAAAABABEhMUFRcWGR/9oACAEBAAE/IZaElupsjwgzByKhnMMqWtMSgmieQFNvxESasvpXiBKX7UrGU/ZOES5//9oADAMBAAIAAwAAABA09bz8L//EABcRAQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQMBAT8QiNK3n//EABcRAQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQIBAT8QqsIzn//EABwQAQACAwEBAQAAAAAAAAAAAAEAESExUYGxYf/aAAgBAQABPxCmZSFe4CiFfSMShjI97iO6DsTM1pAt3suKg1188hKxsrQZzoYrojBdfB+9lk6XVdg/Uc26gydC5lvmwFb9n//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/19976f9965b925f723b91ae6b78ec51e/20d6a/wework.webp 180w,
+/static/19976f9965b925f723b91ae6b78ec51e/650dc/wework.webp 360w,
+/static/19976f9965b925f723b91ae6b78ec51e/7bd89/wework.webp 720w,
+/static/19976f9965b925f723b91ae6b78ec51e/ea6a4/wework.webp 1080w,
+/static/19976f9965b925f723b91ae6b78ec51e/12062/wework.webp 1440w,
+/static/19976f9965b925f723b91ae6b78ec51e/06213/wework.webp 2944w&quot;
+          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/19976f9965b925f723b91ae6b78ec51e/f8ae0/wework.jpg 180w,
+/static/19976f9965b925f723b91ae6b78ec51e/a75db/wework.jpg 360w,
+/static/19976f9965b925f723b91ae6b78ec51e/3f1d1/wework.jpg 720w,
+/static/19976f9965b925f723b91ae6b78ec51e/5792a/wework.jpg 1080w,
+/static/19976f9965b925f723b91ae6b78ec51e/45150/wework.jpg 1440w,
+/static/19976f9965b925f723b91ae6b78ec51e/09453/wework.jpg 2944w&quot;
+          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/19976f9965b925f723b91ae6b78ec51e/3f1d1/wework.jpg&quot;
+          alt=&quot;UI&quot;
+          title=&quot;&quot;
+          src=&quot;/static/19976f9965b925f723b91ae6b78ec51e/3f1d1/wework.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;div&gt;</content:encoded></item><item><title><![CDATA[K-12 (2019)]]></title><description><![CDATA[I had the opportunity to work once again with the team at Frame 48 on another awesome project. This time as the VFX Supervisor on K-12, a…]]></description><link>https://jeffhq.com/k-12/</link><guid isPermaLink="false">https://jeffhq.com/k-12/</guid><pubDate>Mon, 20 May 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I had the opportunity to work once again with the team at Frame 48 on another awesome project. This time as the VFX Supervisor on K-12, a film which shot in Budapest over the course of a month and a half, and then through post-production in Los Angeles.&lt;/p&gt;
+&lt;p&gt;We brought on specialists from around the world to build vegetation, underwater worlds, run simulations, create architectural visualizations, and roto.&lt;/p&gt;
+&lt;p&gt;We did everything from clean-up to full-cg shots, with a lot of compositing, for a total of 350+ shots.&lt;/p&gt;
+&lt;h2&gt;Team&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Seth Josephson&lt;/strong&gt; - Post Producer&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jeff Hodges&lt;/strong&gt; - VFX Supervisor&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Julian Conner&lt;/strong&gt; - Producer&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tom Teller&lt;/strong&gt; - 3d Lead&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Daniel Corona&lt;/strong&gt; - Lead Compositor&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tanner Merrill&lt;/strong&gt; - Compositor and Houdini Artist&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ben Jannasch&lt;/strong&gt; - Matchmove and 3d Generalist&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Alvaro Moreira&lt;/strong&gt; - Lead Houdini Artist&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dash Nexus]]></title><description><![CDATA[My Role My role on the project was both as a project managaer and an occasional code contributor. While my background in programming is…]]></description><link>https://jeffhq.com/dash-nexus/</link><guid isPermaLink="false">https://jeffhq.com/dash-nexus/</guid><pubDate>Mon, 06 May 2019 22:40:32 GMT</pubDate><content:encoded>&lt;div class=&quot;kg-card kg-image-card&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/5a18b/nexus_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 720px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.08688387635756%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC6ElEQVQ4y52TWUhVQRjHp90iCBMr2jVbTcqysEXLKEjKl57sIbLtRvWg3m5EBUK7tIhQYRtF1EMPhZZpprfUXDJUlNRSrzcpzLAHUfJ67jl3+TVzktCKHhr48c18M/OfOf/5jhBT4gkMTyQobAvDJq0nYNpGRFAsYmLMn6j87wTHETBpDePizhC8rwDxsryR8moHVTUtvH7TJGkciE2UVDRQWinHEhXtpXV/8LK0nuKyekqqmimrbUd86eikproWZ9tHSTtfO7tobXHQ0uygQ859dLbjcDjNOb+Pfzc/iDbnZ+rqGun57sGl+TAMcLlk32Xg1v243X40me/v95p7PB7o6zMG1vxGvwfhbPuEvaiYR0/t5OfbKSwookiOCwtf8aLAzrPcfPJyn8s1r3iSk8uH9614pXa/3KxpXnmgbwgi69Zd5kZEMi9iCeHLV7JIMnXadMaMGsn4CYFybilzFi9h+dpYpoSGkXntunnTvj7974IXsu4yfdVGjmZcpUH6VNvUjGV3EptWryAichkVdQ3UvG/BciqdxBOnyC6pNAVdAzccjCmYcfsBIeu2knb1JoZbo/tbF/uSdhAbHcWc+fO5/zSPt+8aOXA+k13pV3hSVj1EcPDt1FhcunGPkJh4ks9epqCiiowHjzlk2Utk+CKioqPJLq7kkb2U3ScvkZSeRc7rmiGC6vEUmuaRogOCCzdtI95iI+Ggja17kojbEEfkgnBmzA4hYcdOdqWls/3YeRLP3SK7vN4U1A0vfr+KSliXr+/FJxPi+OmLiMlhhK7ezMzFC5kaGszosWMZPiIAMUwghCBwxiwWSFsCI2LIvPPQFDSkQHd3N13SIlWAvb298gApmJP9jP2WAxy2HiEl2UpKig1rqo1UiVXmFKkyb7PasOy1kJ/3whRUn6hphiwft6xd5aUho3wU/qNp0iu1+Sd+dP1nX0Xh8fro6JGm6spUdZoyeGhUeV3XTTS3jtc36F8z4Vf8AbMPZZYc+swGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/20d6a/nexus_1.webp 180w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/650dc/nexus_1.webp 360w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/7bd89/nexus_1.webp 720w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/ea6a4/nexus_1.webp 1080w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/12062/nexus_1.webp 1440w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/bdd55/nexus_1.webp 2394w&quot;
+          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/00620/nexus_1.png 180w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/2c72b/nexus_1.png 360w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/1987c/nexus_1.png 720w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/3e70e/nexus_1.png 1080w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/09904/nexus_1.png 1440w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/5a18b/nexus_1.png 2394w&quot;
+          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/1987c/nexus_1.png&quot;
+          alt=&quot;UI&quot;
+          title=&quot;&quot;
+          src=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/1987c/nexus_1.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;div&gt;
+&lt;h3&gt;My Role&lt;/h3&gt;
+&lt;p&gt;My role on the project was both as a project managaer and an occasional code contributor.&lt;/p&gt;
+&lt;p&gt;While my background in programming is heavily focused on Python, this project gave me an opportunity to learn some Node and React as I followed along with the great developers at &lt;a href=&quot;https://www.strv.com&quot;&gt;STRV&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Yuri and I began thinking about this project back in 2017 when we saw an opportunity to take the rather complicated and somewhat user-hostile decentralized governance and funding system behind the Dash cryptocurrency.&lt;/p&gt;
+&lt;h3&gt;The Process&lt;/h3&gt;
+&lt;p&gt;We knew early on that we wanted to build an application that was nice to use on both Desktop and Mobile, while at the same time understanding that there were certain features that just didn’t translate well to mobile. So we set to work figuring out what features were critical for a mobile experience, and which ones made the most sense on desktop.&lt;/p&gt;
+&lt;p&gt;Once we knew which features were most important, we started putting together mock-ups for the UI and UX, working with some talented User Experience designers that we found via Upwork. We worked collaboratively through RealTimeBoard (now Miro) to lay out the different user journies that our users would end up taking, and discovered once again what was most important for the MVP.&lt;/p&gt;
+&lt;div class=&quot;kg-card kg-image-card&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/f9d9b/nexus_3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 720px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.74007220216607%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABgUlEQVQoz52SzW7jMAyE/f6v1XPRY7tdZNFFky6cxNYfSUl27OnIWbS7PRU5DGhJ1GeSo877gJQUc1aUbBA1hOAwjGc47xBiRIzMCR4xBDjn4L2HSEKKLeqHUkrosnpc6oDHUXA4OqyzQk0RpYeWA0oZMNVInWDikPnTqTrUMrKAYfueZ8NlTjwjUMIvWLjH/f4Fu9/PqLonbIS6N5Rxh3mpWJYLgBWVsFIyAdOmZVkJioR7rOvEaOiKZUzljFl2KPYK1SOSDHBvL5DDD5Q6E1KYXKEibE24rjDe2/Yr91VZ3TV2xpan/IcJYUucpgJTQZACOe6grw8Qd4bn/ALnGLb4qTbP8M9Z1wafUri2kzP/VLhmG5UtWE+zTtwvBNIUGvQV+FWd0q2aI85iSLw4VUZpTjaHWWlMf6v7nrosJxrxE3f7Hnvf2u/5dAgL6duQ/4CtnWXhgE9P0P6J8yMwHW8HmlyrKjkgm3F2Qmg7jLcB22s3SxTdJTDTmPbqb4E1vQM0h0v3okg6jwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/20d6a/nexus_3.webp 180w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/650dc/nexus_3.webp 360w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/7bd89/nexus_3.webp 720w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/ea6a4/nexus_3.webp 1080w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/12062/nexus_3.webp 1440w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/38e61/nexus_3.webp 2770w&quot;
+          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/00620/nexus_3.png 180w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/2c72b/nexus_3.png 360w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/1987c/nexus_3.png 720w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/3e70e/nexus_3.png 1080w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/09904/nexus_3.png 1440w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/f9d9b/nexus_3.png 2770w&quot;
+          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/1987c/nexus_3.png&quot;
+          alt=&quot;Darkness&quot;
+          title=&quot;&quot;
+          src=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/1987c/nexus_3.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Tech Stack&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloudflare&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;AWS&lt;/li&gt;
+&lt;li&gt;Heroku&lt;/li&gt;
+&lt;li&gt;Jira&lt;/li&gt;
+&lt;li&gt;Rollbar&lt;/li&gt;
+&lt;li&gt;NodeJS&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Postgres&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;li&gt;DashD&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Welcome Home (2018)]]></title><description><![CDATA[Matt Wauhkonen, Zach Hobesh, Daniel Corona, and myself spent another Christmas vacation finishing up the many screen-replacement shots from…]]></description><link>https://jeffhq.com/welcome_home/</link><guid isPermaLink="false">https://jeffhq.com/welcome_home/</guid><pubDate>Tue, 30 Oct 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Matt Wauhkonen, Zach Hobesh, Daniel Corona, and myself spent another Christmas vacation finishing up the many screen-replacement shots from the film.&lt;/p&gt;
+&lt;p&gt;This included some especially difficult tracks in mocha Pro because of the anamorphic lenses used during filming.&lt;/p&gt;
+&lt;h4&gt;Example breakdown&lt;/h4&gt;
+&lt;p&gt;
+      &lt;div
+      class=&quot;gatsby-video-aspect-ratio&quot;
+      style=&quot;position: relative; display: block; padding-top: 50.31250000000001%;&quot;
+      &gt;
+    &lt;video autoplay loop preload style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: auto;&quot; &gt;
+      &lt;source src=&quot;/static/3-up-bb2e3670e6d9442059a80e50fee10255-73990.webm&quot; type=&quot;video/webm&quot;&gt;&lt;source src=&quot;/static/3-up-bb2e3670e6d9442059a80e50fee10255-c89fc.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Love Means Zero (2018)]]></title><description><![CDATA[Another collaboration between Zach Hobesh, Matthew Wauhkonen, and myself - we did a bunch of small clean-up work on this documentary…]]></description><link>https://jeffhq.com/love-means-zero/</link><guid isPermaLink="false">https://jeffhq.com/love-means-zero/</guid><pubDate>Sat, 23 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Another collaboration between Zach Hobesh, Matthew Wauhkonen, and myself - we did a bunch of small clean-up work on this documentary.&lt;/p&gt;
+&lt;p&gt;Everything from tweaking scores for the tennis match in b-roll to work with the story being told, to stabilizing long takes, to soft-splits, to roto and back-ground replacement.&lt;/p&gt;
+&lt;p&gt;We used every trick in the book to add a little more polish to this great documentary.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Stargate Origins]]></title><description><![CDATA[I grew up watching all the different Stargate series and it’s actually part of what got me interested in VFX in the first place - so I…]]></description><link>https://jeffhq.com/stargate-origins/</link><guid isPermaLink="false">https://jeffhq.com/stargate-origins/</guid><pubDate>Thu, 01 Feb 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I grew up watching all the different Stargate series and it’s actually part of what got me interested in VFX in the first place - so I jumped at the opportunity to have my name in the credits when Tom called saying he could use some help.&lt;/p&gt;
+&lt;p&gt;I really only did one day’s worth of work on this comping in moons, painting out tire-tracks, and some other small things… Plus another day attempting to track a 46 second long shot of sand dunes in &lt;a href=&quot;https://borisfx.com/products/mocha-pro/&quot;&gt;mocha&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Microsoft 12 Days of Deals]]></title><description><![CDATA[Intro Animation  Credits Client: Contend Producer: Seth Josephson Motion Graphics: Jeff Hodges]]></description><link>https://jeffhq.com/microsoft/</link><guid isPermaLink="false">https://jeffhq.com/microsoft/</guid><pubDate>Fri, 15 Dec 2017 22:40:32 GMT</pubDate><content:encoded>&lt;h4&gt;Intro Animation&lt;/h4&gt;
+&lt;p&gt;
+      &lt;div
+      class=&quot;gatsby-video-aspect-ratio&quot;
+      style=&quot;position: relative; display: block; padding-top: 56.25%;&quot;
+      &gt;
+    &lt;video autoplay loop preload style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: auto;&quot; &gt;
+      &lt;source src=&quot;/static/intro_v06_4k-7d339f2599ff17746ce6a1265dd80165-73990.webm&quot; type=&quot;video/webm&quot;&gt;&lt;source src=&quot;/static/intro_v06_4k-7d339f2599ff17746ce6a1265dd80165-c89fc.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;
+&lt;h3&gt;Credits&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt; &lt;a href=&quot;http://contendco.com/&quot;&gt;Contend&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Producer:&lt;/strong&gt; Seth Josephson&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Motion Graphics:&lt;/strong&gt; Jeff Hodges&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Verizon Go90]]></title><description><![CDATA[This was another interesting project with Contend where I was brought on as a motion graphics artist to do a number of different iterations…]]></description><link>https://jeffhq.com/verizon-go90/</link><guid isPermaLink="false">https://jeffhq.com/verizon-go90/</guid><pubDate>Fri, 03 Nov 2017 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;This was another interesting project with Contend where I was brought on as a motion graphics artist to do a number of different iterations based on some inspiration provided by the Creative Director for the project.&lt;/p&gt;
+&lt;h4&gt;Version 1:&lt;/h4&gt;
+&lt;p&gt;
+      &lt;div
+      class=&quot;gatsby-video-aspect-ratio&quot;
+      style=&quot;position: relative; display: block; padding-top: 56.25%;&quot;
+      &gt;
+    &lt;video autoplay loop preload style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: auto;&quot; &gt;
+      &lt;source src=&quot;/static/go90_drew_v09-4138661fabdb68efee190dcd047fb90a-73990.webm&quot; type=&quot;video/webm&quot;&gt;&lt;source src=&quot;/static/go90_drew_v09-4138661fabdb68efee190dcd047fb90a-c89fc.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;
+&lt;h4&gt;Version 2:&lt;/h4&gt;
+&lt;p&gt;
+      &lt;div
+      class=&quot;gatsby-video-aspect-ratio&quot;
+      style=&quot;position: relative; display: block; padding-top: 56.25%;&quot;
+      &gt;
+    &lt;video autoplay loop preload style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: auto;&quot; &gt;
+      &lt;source src=&quot;/static/go90_zoom_rainbow_v02-54b5a14324898d1b65a32e9be9f740db-73990.webm&quot; type=&quot;video/webm&quot;&gt;&lt;source src=&quot;/static/go90_zoom_rainbow_v02-54b5a14324898d1b65a32e9be9f740db-c89fc.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ingrid Goes West (2017)]]></title><description><![CDATA[“OH MY GOD, IT’S INGRID THORBURN” What happens when Instagram changes their UI between production and post-production? Well, you hire people…]]></description><link>https://jeffhq.com/ingrid-goes-west/</link><guid isPermaLink="false">https://jeffhq.com/ingrid-goes-west/</guid><pubDate>Thu, 15 Jun 2017 22:40:32 GMT</pubDate><content:encoded>&lt;h3&gt;“OH MY GOD, IT’S INGRID THORBURN”&lt;/h3&gt;
+&lt;p&gt;What happens when Instagram changes their UI between production and post-production?&lt;/p&gt;
+&lt;p&gt;Well, you hire people who spend most of their time touching up phone screens, doing paint work/ clean-up, and you put them to work fixing the UI.&lt;/p&gt;
+&lt;p&gt;Matt Wauhkonen, Zach Hobesh, Daniel Corona, and myself spent the majority of our Christmas vacation in 2016 finishing up the VFX on the film before sending it off to Sundance where it was then sold to Magnolia pictures.&lt;/p&gt;
+&lt;p&gt;Going and seeing my name in the credits in the theater right next to so many other talented individuals made it all worth it though.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What is Augmenta]]></title><description><![CDATA[This “in-world” ad for the film Creative Control was a very interesting early project that I worked on at Sandwich. It was the second or…]]></description><link>https://jeffhq.com/augmenta/</link><guid isPermaLink="false">https://jeffhq.com/augmenta/</guid><pubDate>Sat, 12 Mar 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;This “in-world” ad for the film Creative Control was a very interesting early project that I worked on at Sandwich.&lt;/p&gt;
+&lt;p&gt;It was the second or third project I had worked on at Sandwich as an AE and we were doing cleanup, 3D tracking, roto, and motion graphics on 4k Cinemascope plates.&lt;/p&gt;
+&lt;p&gt;We had so many issues with tracking that I ended up learned mocha Pro’s 3D tracker and PFTrack just to get some of the shots done, and what we couldn’t track correctly we just brute-forced with manual tracking.&lt;/p&gt;
+&lt;p&gt;Check out the trailer for the full film below.&lt;/p&gt;
+&lt;p&gt;
+          &lt;div
+            class=&quot;gatsby-resp-iframe-wrapper&quot;
+            style=&quot;padding-bottom: 56.49999999999999%; position: relative; height: 0; overflow: hidden;margin-bottom: 1.0725rem&quot;
+          &gt;
+            &lt;div class=&quot;embedVideo-container&quot;&gt;
+            &lt;iframe src=&quot;https://www.youtube.com/embed/IDCcO7uGQQk?rel=0&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          &quot; allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/p&gt;</content:encoded></item></channel></rss>
