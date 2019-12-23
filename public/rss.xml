@@ -1,4 +1,238 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JeffHQ.com]]></title><description><![CDATA[VFX Supervisor // Software Developer]]></description><link>https://jeffhq.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 16 Aug 2019 00:53:58 GMT</lastBuildDate><item><title><![CDATA[New Blog]]></title><description><![CDATA[Last year I launched a new version of my website built in raw HTML with the help of HTML5up and it was a lot of work building things without…]]></description><link>https://jeffhq.com/new-blog/</link><guid isPermaLink="false">https://jeffhq.com/new-blog/</guid><pubDate>Thu, 01 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Last year I launched a new version of my website built in raw HTML with the help of HTML5up and it was a lot of work building things without templates.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JeffHQ.com]]></title><description><![CDATA[VFX Supervisor // Software Developer]]></description><link>https://jeffhq.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 23 Dec 2019 22:10:24 GMT</lastBuildDate><item><title><![CDATA[Kid Sister Website]]></title><description><![CDATA[When Kid Sister first reached out in July, I was in Mexico City and had just finished building this website actually. So I was feeling…]]></description><link>https://jeffhq.com/kidsister/</link><guid isPermaLink="false">https://jeffhq.com/kidsister/</guid><pubDate>Wed, 25 Dec 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;When Kid Sister first reached out in July, I was in Mexico City and had just finished building this website actually. So I was feeling pretty good about my Gatsby skills.&lt;/p&gt;
+&lt;p&gt;They wanted to do something really unique for their homepage, and I wanted to help make that happen. The brief was for a component that looked and felt like the View Master toy that we played with as kids. We had two options, either to create a template in After Effects that needed to be updated every time the content changed for the homepage, or figure out a way to do it programatically. I opted for the programatic solution, as it meant less effort to maintain and most importantly - that my client could update the site once using Prismic, and every part of it would be updated automatically and pushed back out to the CDN.&lt;/p&gt;
+&lt;p&gt;So I started looking for the most accomplished WebGL developers I could find and ended up finding one we liked. Vadym did a great job building it in Javascript using PixiJS, but the next challenge was combining it with the rest of the site that is built in declarative React.&lt;/p&gt;
+&lt;div class=&quot;kg-card kg-image-card&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/035a4660522082cb7ff8b172c7724ab0/88194/kid-sister-cover.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 900px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 54.406580493537014%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACiUlEQVQoz6WTyU8TYRyGpxttKUwXWgq0pQv7UkrpAo2yllINcFDBFJB9DUXBGjgYCKLGRCORixIjkphogjFRo9408erJm8SD/8vjVzDA3cP7Jd/8njwz8807kkKhIBtJkv4rZzzHG71GFjFTJNdSmOvEqSsmTy2jUuaI+TGj0+SjV1uw51dhz3Xg0jnEPl8wWiTFiVwiT2ulRA4ScU2S9N8nbB1krXWNgL0Nk7YcjUqLLG7gNEVpds8Tr7lNW/E1VtszlJkjgnGjUWpOhQ69l6AxTrdjmamGHdI1i9wKp4laE5SoPcgqA668ChpNcXq9G8wGtlmomiMdmCVo6sChKiVPlXsq9Ol99DhHmasd5H3kGdvBbS6XjjPnn6JMCmKWzHjUNXRYx5mtTvGpZZ8t/11SvhnmA+NUKgNYNaZjoUIsFToPvbZ2Mt4wL8tH+XZlh0x4mRvnB+mvDdLksdATLGGps5UNfzOvyqf5OrDDzUia0boUIUOMQrXx9Anj1hi7yTUWKi6yHpnhYHFPvPYQ3dWdXIqdo8qWz3A0yMHEBDPeNtajs7xN7wvmKi2O+FGKzwpHbDF+bP3hy9BTXofG+ZB4yJLjAh3iwBOWVpySiT5DmO+rv/g8tsebyCTvOh+w6u6jyxKivzBGuabgVLjZdp3DjZ888SR45Etyz5vkhSPBgFzPhKEan6RlJTTM761DntcN8tjbwx3B7ruSjMh+xnSVNIg6nQibShrZbZ4mY6whpbAzqfWwaqxnTNShL8eFTjBRd4yPyQ02bSFGJDtjOW5W5DrBlNKlLsIo+nr8Uc78JQZxURadM4sUqHQUiMJqFMosdDTPiu0qPRYxM2W7KXiD6J8yO/9X/r/3eE5rero6YQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/035a4660522082cb7ff8b172c7724ab0/7ca41/kid-sister-cover.webp 225w,
+/static/035a4660522082cb7ff8b172c7724ab0/30524/kid-sister-cover.webp 450w,
+/static/035a4660522082cb7ff8b172c7724ab0/9563b/kid-sister-cover.webp 900w,
+/static/035a4660522082cb7ff8b172c7724ab0/ffdbf/kid-sister-cover.webp 1350w,
+/static/035a4660522082cb7ff8b172c7724ab0/e6538/kid-sister-cover.webp 1800w,
+/static/035a4660522082cb7ff8b172c7724ab0/8a33a/kid-sister-cover.webp 3404w&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/035a4660522082cb7ff8b172c7724ab0/eadb8/kid-sister-cover.png 225w,
+/static/035a4660522082cb7ff8b172c7724ab0/eaa93/kid-sister-cover.png 450w,
+/static/035a4660522082cb7ff8b172c7724ab0/20101/kid-sister-cover.png 900w,
+/static/035a4660522082cb7ff8b172c7724ab0/b2864/kid-sister-cover.png 1350w,
+/static/035a4660522082cb7ff8b172c7724ab0/35398/kid-sister-cover.png 1800w,
+/static/035a4660522082cb7ff8b172c7724ab0/88194/kid-sister-cover.png 3404w&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/035a4660522082cb7ff8b172c7724ab0/20101/kid-sister-cover.png&quot;
+          alt=&quot;Homepage&quot;
+          title=&quot;&quot;
+          src=&quot;/static/035a4660522082cb7ff8b172c7724ab0/20101/kid-sister-cover.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Viewmaster Component&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;kg-card kg-image-card&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b3775ca08c9f83094c62b08d541c70b4/4de54/kid-sister-gallery.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 900px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.57291666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC2klEQVQozz2Ra1MbVRyHtyEXcr9syCbZDTRXEgIJmxspkE1CqBCSELAVQo0txYLoDG2xWOmbTp1OvVB1xhE7dsYZHT+Dr/WjPS4Z64vnzTn/85zf7xxh8PCC/fOfePD8DUdfveXk4k8Oz7/jw7PX7Ozu0V4qsKo1cF9PoZTrZFe7xJZbxBc1csuLZEs5MjNRttdUmuUphKdfX/Ls2595/sMbXv36B9/88pa9ZpX2yiqnh/c4/2TI2eGAgCLjS2bwZgtI+RK+9CzKXA4pmSSdCnFyr06tGEHYG96n3XmfrVtDPjr4jCfH+7yXz5CPTXF8Z5MHuz366y2KmQj52RiTiRj+cIjWWpOcmmWpMo+WSxBXnPidRoRkqoBW77BYKLFQXOKDTpdiLIIam2StWuHZ5yd8+eQxrVKUVjHK9HSMgBxmo1FlYX6acmmWbfU6osuE4ZqAUC0vs95ooEZDxAMilXQCNeInr0ww7K5x+folFy+ekolOkIxK2GSFwPQMwZCEyW5lMp1h90aKbFzCYDYh7HRa9OpFSpk4focVRXSTigRJyQFuVmfpb6yy0W5TKMzhcDqp6BVn5jJYxscZM5qQ9BCpkEhiSiYUnEAwmS0Yxoz6gBWLxYJZx+5wYLXaEARhhHXcwsO7m6QViS+OBtzpNbGZjCzMpdltlZnwuBHdLgJeN4LdZsPlcuLSb/f5fCiKQjgc1oVWTCb9XQwGnA47w36DWj7OoyP9826v49HbJCdlTjslgg4Lkugl6PcimM3m0UFZllFVdUStVsOhpzQax7j2TtjVWCklefxxn+2bC6O1s6MD/v79e14d7+nyEOGAH8GmJ3T+l+4Kv98/kouiOBK+qzzcaqEV0hzc0ri9kqOSi/PX5Uv+uXjBb4db1OcTeN1OvbLdjtvtxuv1/i+9wuPxcLUXDIaQpAB3+xq95jyDXo37WxqfDja5fLTDj/sbnHaX2WzeIDoV4V9ra1z+dLLNcgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/b3775ca08c9f83094c62b08d541c70b4/7ca41/kid-sister-gallery.webp 225w,
+/static/b3775ca08c9f83094c62b08d541c70b4/30524/kid-sister-gallery.webp 450w,
+/static/b3775ca08c9f83094c62b08d541c70b4/9563b/kid-sister-gallery.webp 900w,
+/static/b3775ca08c9f83094c62b08d541c70b4/ffdbf/kid-sister-gallery.webp 1350w,
+/static/b3775ca08c9f83094c62b08d541c70b4/e6538/kid-sister-gallery.webp 1800w,
+/static/b3775ca08c9f83094c62b08d541c70b4/b4792/kid-sister-gallery.webp 3840w&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/b3775ca08c9f83094c62b08d541c70b4/eadb8/kid-sister-gallery.png 225w,
+/static/b3775ca08c9f83094c62b08d541c70b4/eaa93/kid-sister-gallery.png 450w,
+/static/b3775ca08c9f83094c62b08d541c70b4/20101/kid-sister-gallery.png 900w,
+/static/b3775ca08c9f83094c62b08d541c70b4/b2864/kid-sister-gallery.png 1350w,
+/static/b3775ca08c9f83094c62b08d541c70b4/35398/kid-sister-gallery.png 1800w,
+/static/b3775ca08c9f83094c62b08d541c70b4/4de54/kid-sister-gallery.png 3840w&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/b3775ca08c9f83094c62b08d541c70b4/20101/kid-sister-gallery.png&quot;
+          alt=&quot;Gallery&quot;
+          title=&quot;&quot;
+          src=&quot;/static/b3775ca08c9f83094c62b08d541c70b4/20101/kid-sister-gallery.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gallery&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;kg-card kg-image-card&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f0f6f15c2337d6372e56dcd896a8522c/2ab73/kid-sister-mobile.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 726px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.68595041322314%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/f0f6f15c2337d6372e56dcd896a8522c/7ca41/kid-sister-mobile.webp 225w,
+/static/f0f6f15c2337d6372e56dcd896a8522c/30524/kid-sister-mobile.webp 450w,
+/static/f0f6f15c2337d6372e56dcd896a8522c/fd766/kid-sister-mobile.webp 726w&quot;
+          sizes=&quot;(max-width: 726px) 100vw, 726px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/f0f6f15c2337d6372e56dcd896a8522c/eadb8/kid-sister-mobile.png 225w,
+/static/f0f6f15c2337d6372e56dcd896a8522c/eaa93/kid-sister-mobile.png 450w,
+/static/f0f6f15c2337d6372e56dcd896a8522c/2ab73/kid-sister-mobile.png 726w&quot;
+          sizes=&quot;(max-width: 726px) 100vw, 726px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/f0f6f15c2337d6372e56dcd896a8522c/2ab73/kid-sister-mobile.png&quot;
+          alt=&quot;Mobile&quot;
+          title=&quot;&quot;
+          src=&quot;/static/f0f6f15c2337d6372e56dcd896a8522c/2ab73/kid-sister-mobile.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mobile&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Dash Nexus Roadmap]]></title><description><![CDATA[We’ve needed a nice-looking, user-facing roadmap to share with our users for a long time, and over a couple of days in November I finally…]]></description><link>https://jeffhq.com/dash-nexus-roadmap/</link><guid isPermaLink="false">https://jeffhq.com/dash-nexus-roadmap/</guid><pubDate>Fri, 15 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;We’ve needed a nice-looking, user-facing roadmap to share with our users for a long time, and over a couple of days in November I finally built it!&lt;/p&gt;
+&lt;p&gt;I started once again with Gatsby, my favorite static site builder, and decided to use Trello as a source. This meant that we could manage the roadmap using
+a tool that works for us, and show our users a version of it that works for them&lt;/p&gt;
+&lt;div class=&quot;kg-card kg-image-card&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/10cbea09f32b1eec82567dd8af7fb9b0/8fb41/dash-nexus-roadmap.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 900px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.93643586833144%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACGklEQVQ4y4VTTWsUQRCdiwoevfgPxHv0X4g3TwrRnEQTxVNMripRc0gQAv4UPQYSbyJ6SBB0drM7+5EYZmd3vnqmP57VPdudNrvBhkd311RVv6pXEwSXF9DgFuF2s19aaHCFztfu4OqNe7h+825zt3YXdw4PV95CY3FlAw+WX5t96dk7PCIsPX+PxRdbeLz6Acur287v/hPC0w3YWB8BpuukGuLN3it8P/6G/62dr8DHC9wCIQSkkGC8wkF4iIOfh+h0uuj3+7R3UJYMSilIKQ0E+SaFxCgXqGpu7j4C7WwgKYhTkFDuNX3STpweFR6gpoBynjaPSWhMU0NZl2jFLSRl4tlB7NQ/TGp6vJs0EPIsR2APUkljjMYRXn5aw+6vXaIHpFlKZZeo69oFaUaMK2x/qbG5VyNj8iyhZajZ23Oe5GiHbbTaLYRhiCiKUBTFBRLpdslZhjaZbnxVVxiNYiRJQvsIk8kEaZqaPcsyAyMShehypZzD0Imj+0glxnGTUCcZj8fmXDFG/SNlOYcfJ+cx9KXVCRmrqG/ciKFcn+Ggh6ERSMxnWNEcDtIBCj7bK8dGlBDlAJINCceUSDQPemwDq64elfXP69j/vQ9ZSVI3M0LkeY4ip74VHGX8A6qzCdXdgox26AGG8xoE/uX0zymO2kdG2V6vh+FwaBS2f80JffeH3i91pmT9kQvhejZ3QOgDJ0Es/ER2/QVs3Ds+9czaFwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/10cbea09f32b1eec82567dd8af7fb9b0/7ca41/dash-nexus-roadmap.webp 225w,
+/static/10cbea09f32b1eec82567dd8af7fb9b0/30524/dash-nexus-roadmap.webp 450w,
+/static/10cbea09f32b1eec82567dd8af7fb9b0/9563b/dash-nexus-roadmap.webp 900w,
+/static/10cbea09f32b1eec82567dd8af7fb9b0/ffdbf/dash-nexus-roadmap.webp 1350w,
+/static/10cbea09f32b1eec82567dd8af7fb9b0/151b1/dash-nexus-roadmap.webp 1762w&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/10cbea09f32b1eec82567dd8af7fb9b0/eadb8/dash-nexus-roadmap.png 225w,
+/static/10cbea09f32b1eec82567dd8af7fb9b0/eaa93/dash-nexus-roadmap.png 450w,
+/static/10cbea09f32b1eec82567dd8af7fb9b0/20101/dash-nexus-roadmap.png 900w,
+/static/10cbea09f32b1eec82567dd8af7fb9b0/b2864/dash-nexus-roadmap.png 1350w,
+/static/10cbea09f32b1eec82567dd8af7fb9b0/8fb41/dash-nexus-roadmap.png 1762w&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/10cbea09f32b1eec82567dd8af7fb9b0/20101/dash-nexus-roadmap.png&quot;
+          alt=&quot;Homepage&quot;
+          title=&quot;&quot;
+          src=&quot;/static/10cbea09f32b1eec82567dd8af7fb9b0/20101/dash-nexus-roadmap.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[K-12 Tour Visuals (2019)]]></title><description><![CDATA[We had always known that Mel was going to be on tour once the K-12 film came out. But I don’t think anything could have prepared us for the…]]></description><link>https://jeffhq.com/k-12-tour/</link><guid isPermaLink="false">https://jeffhq.com/k-12-tour/</guid><pubDate>Sun, 20 Oct 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;We had always known that Mel was going to be on tour once the K-12 film came out. But I don’t think anything could have prepared us for the sheer amount of frames we needed to create for the 90+ minutes of the show. It turns out that rendering out 7,000+ frames of a Nuke script takes hours - even on a farm with four machines.&lt;/p&gt;
+&lt;p&gt;There was one sequence in the tour visuals that was particularly interesting to me. The brief was to have a tree that grows from a sapling, loses its leaves and droops, then regrows the leaves, and finally, spews out orange juice. That’s a lot of simulations!&lt;/p&gt;
+&lt;p&gt;So of course we turned to Houdini for this monumental task. But for the tree generation itself, we turned to SpeedTree. I reached out to them directly as I was having a hard time tracking down a SpeedTree artist, and they offered to help!&lt;/p&gt;
+&lt;p&gt;Once we had the tree built, it was time to export it via Alembic and bring it into Houdini where we could then go about doing all of the other simulations on top of it.&lt;/p&gt;
+&lt;h3&gt;Challenges&lt;/h3&gt;
+&lt;p&gt;One of the unique challenges on this one was that Vray for Houdini is still very much in Beta, despite what their marketing would like you to believe. We were continually testing nightly builds throughout the course of production in the hopes that the next build would fix the new bug we would run into each day.&lt;/p&gt;
+&lt;p&gt;The sheer amount of geometry in this 30m high tree, and the 830k leaves we instanced on it, also presented its own problems in terms of just how much data we were moving around - and ultimately how much we had to transfer to the cloud in order to render it! We also had to forgo using Vray GPU, and render entirely on CPU because it would hang during the geometry stage for about an hour before finally rendering a frame in 5-10 minutes.&lt;/p&gt;
+&lt;h2&gt;Team&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Seth Josephson&lt;/strong&gt; - Creative Director&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jeff Hodges&lt;/strong&gt; - Technical Director&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Diego Grimaldi&lt;/strong&gt; - Houdini Artist&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tom Teller&lt;/strong&gt; - CG Lead&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tanner Merrill&lt;/strong&gt; - Lead Compositor&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ben Jannasch&lt;/strong&gt; - Matchmove and 3d Generalist&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Blog]]></title><description><![CDATA[Last year I launched a new version of my website built in raw HTML with the help of HTML5up and it was a lot of work building things without…]]></description><link>https://jeffhq.com/new-blog/</link><guid isPermaLink="false">https://jeffhq.com/new-blog/</guid><pubDate>Thu, 01 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Last year I launched a new version of my website built in raw HTML with the help of HTML5up and it was a lot of work building things without templates.&lt;/p&gt;
 &lt;p&gt;A couple of months after I did that, I learned about Gatsby and fell in love with its component-based React + GraphQL build system that make creating a site like this as simple as customizing a template (or starting from scratch), writing some posts, pushing to Github and auto-deploying to Netlify!&lt;/p&gt;
 &lt;p&gt;The out-of-the-box functionality that Gatsby provides includes SEO and Progressive Web App functionality courtesy of an auto-built service worker that adds the ability to install your website or blog as an application to the home screen of your phone, as well as providing offline functionality.&lt;/p&gt;
 &lt;h3&gt;Gatsby&lt;/h3&gt;
@@ -35,7 +269,7 @@
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 720px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 900px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -43,32 +277,32 @@
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/19976f9965b925f723b91ae6b78ec51e/20d6a/wework.webp 180w,
-/static/19976f9965b925f723b91ae6b78ec51e/650dc/wework.webp 360w,
-/static/19976f9965b925f723b91ae6b78ec51e/7bd89/wework.webp 720w,
-/static/19976f9965b925f723b91ae6b78ec51e/ea6a4/wework.webp 1080w,
-/static/19976f9965b925f723b91ae6b78ec51e/12062/wework.webp 1440w,
+          srcset=&quot;/static/19976f9965b925f723b91ae6b78ec51e/7ca41/wework.webp 225w,
+/static/19976f9965b925f723b91ae6b78ec51e/30524/wework.webp 450w,
+/static/19976f9965b925f723b91ae6b78ec51e/9563b/wework.webp 900w,
+/static/19976f9965b925f723b91ae6b78ec51e/ffdbf/wework.webp 1350w,
+/static/19976f9965b925f723b91ae6b78ec51e/e6538/wework.webp 1800w,
 /static/19976f9965b925f723b91ae6b78ec51e/06213/wework.webp 2944w&quot;
-          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/19976f9965b925f723b91ae6b78ec51e/f8ae0/wework.jpg 180w,
-/static/19976f9965b925f723b91ae6b78ec51e/a75db/wework.jpg 360w,
-/static/19976f9965b925f723b91ae6b78ec51e/3f1d1/wework.jpg 720w,
-/static/19976f9965b925f723b91ae6b78ec51e/5792a/wework.jpg 1080w,
-/static/19976f9965b925f723b91ae6b78ec51e/45150/wework.jpg 1440w,
+          srcset=&quot;/static/19976f9965b925f723b91ae6b78ec51e/f0ed1/wework.jpg 225w,
+/static/19976f9965b925f723b91ae6b78ec51e/30f61/wework.jpg 450w,
+/static/19976f9965b925f723b91ae6b78ec51e/2fabe/wework.jpg 900w,
+/static/19976f9965b925f723b91ae6b78ec51e/aec92/wework.jpg 1350w,
+/static/19976f9965b925f723b91ae6b78ec51e/b4875/wework.jpg 1800w,
 /static/19976f9965b925f723b91ae6b78ec51e/09453/wework.jpg 2944w&quot;
-          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/19976f9965b925f723b91ae6b78ec51e/3f1d1/wework.jpg&quot;
+          src=&quot;/static/19976f9965b925f723b91ae6b78ec51e/2fabe/wework.jpg&quot;
           alt=&quot;UI&quot;
           title=&quot;&quot;
-          src=&quot;/static/19976f9965b925f723b91ae6b78ec51e/3f1d1/wework.jpg&quot;
+          src=&quot;/static/19976f9965b925f723b91ae6b78ec51e/2fabe/wework.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -77,8 +311,9 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;div&gt;</content:encoded></item><item><title><![CDATA[K-12 (2019)]]></title><description><![CDATA[I had the opportunity to work once again with the team at Frame 48 on another awesome project. This time as the VFX Supervisor on K-12, a…]]></description><link>https://jeffhq.com/k-12/</link><guid isPermaLink="false">https://jeffhq.com/k-12/</guid><pubDate>Mon, 20 May 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I had the opportunity to work once again with the team at Frame 48 on another awesome project. This time as the VFX Supervisor on K-12, a film which shot in Budapest over the course of a month and a half, and then through post-production in Los Angeles.&lt;/p&gt;
-&lt;p&gt;We brought on specialists from around the world to build vegetation, underwater worlds, run simulations, create architectural visualizations, and roto.&lt;/p&gt;
-&lt;p&gt;We did everything from clean-up to full-cg shots, with a lot of compositing, for a total of 350+ shots.&lt;/p&gt;
+&lt;p&gt;When the film premiered on YouTube, it was to a live audience that peaked at 183k people! Since the premiere in September, it has racked up over 33 Million views!&lt;/p&gt;
+&lt;p&gt;To make the project happen, we brought on specialists from around the world to build vegetation, underwater worlds, run simulations, create architectural visualizations - and of course, paint and roto.&lt;/p&gt;
+&lt;p&gt;We did everything from your usual clean-up to full-cg shots, as well as loads of 2d compositing, for a total of 370+ shots.&lt;/p&gt;
 &lt;h2&gt;Team&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Seth Josephson&lt;/strong&gt; - Post Producer&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Jeff Hodges&lt;/strong&gt; - VFX Supervisor&lt;/p&gt;
@@ -99,7 +334,7 @@
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 720px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 900px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -107,32 +342,32 @@
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/20d6a/nexus_1.webp 180w,
-/static/8d59481e8f6b3adc77ee7716ffa1c0d0/650dc/nexus_1.webp 360w,
-/static/8d59481e8f6b3adc77ee7716ffa1c0d0/7bd89/nexus_1.webp 720w,
-/static/8d59481e8f6b3adc77ee7716ffa1c0d0/ea6a4/nexus_1.webp 1080w,
-/static/8d59481e8f6b3adc77ee7716ffa1c0d0/12062/nexus_1.webp 1440w,
+          srcset=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/7ca41/nexus_1.webp 225w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/30524/nexus_1.webp 450w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/9563b/nexus_1.webp 900w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/ffdbf/nexus_1.webp 1350w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/e6538/nexus_1.webp 1800w,
 /static/8d59481e8f6b3adc77ee7716ffa1c0d0/bdd55/nexus_1.webp 2394w&quot;
-          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/00620/nexus_1.png 180w,
-/static/8d59481e8f6b3adc77ee7716ffa1c0d0/2c72b/nexus_1.png 360w,
-/static/8d59481e8f6b3adc77ee7716ffa1c0d0/1987c/nexus_1.png 720w,
-/static/8d59481e8f6b3adc77ee7716ffa1c0d0/3e70e/nexus_1.png 1080w,
-/static/8d59481e8f6b3adc77ee7716ffa1c0d0/09904/nexus_1.png 1440w,
+          srcset=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/eadb8/nexus_1.png 225w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/eaa93/nexus_1.png 450w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/20101/nexus_1.png 900w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/b2864/nexus_1.png 1350w,
+/static/8d59481e8f6b3adc77ee7716ffa1c0d0/35398/nexus_1.png 1800w,
 /static/8d59481e8f6b3adc77ee7716ffa1c0d0/5a18b/nexus_1.png 2394w&quot;
-          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
           type=&quot;image/png&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/1987c/nexus_1.png&quot;
+          src=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/20101/nexus_1.png&quot;
           alt=&quot;UI&quot;
           title=&quot;&quot;
-          src=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/1987c/nexus_1.png&quot;
+          src=&quot;/static/8d59481e8f6b3adc77ee7716ffa1c0d0/20101/nexus_1.png&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -160,7 +395,7 @@
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 720px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin: 5vw 0; max-width: 900px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -168,32 +403,32 @@
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/20d6a/nexus_3.webp 180w,
-/static/fecbdd68153c2e497e8fe3f5ee6d615e/650dc/nexus_3.webp 360w,
-/static/fecbdd68153c2e497e8fe3f5ee6d615e/7bd89/nexus_3.webp 720w,
-/static/fecbdd68153c2e497e8fe3f5ee6d615e/ea6a4/nexus_3.webp 1080w,
-/static/fecbdd68153c2e497e8fe3f5ee6d615e/12062/nexus_3.webp 1440w,
+          srcset=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/7ca41/nexus_3.webp 225w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/30524/nexus_3.webp 450w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/9563b/nexus_3.webp 900w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/ffdbf/nexus_3.webp 1350w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/e6538/nexus_3.webp 1800w,
 /static/fecbdd68153c2e497e8fe3f5ee6d615e/38e61/nexus_3.webp 2770w&quot;
-          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/00620/nexus_3.png 180w,
-/static/fecbdd68153c2e497e8fe3f5ee6d615e/2c72b/nexus_3.png 360w,
-/static/fecbdd68153c2e497e8fe3f5ee6d615e/1987c/nexus_3.png 720w,
-/static/fecbdd68153c2e497e8fe3f5ee6d615e/3e70e/nexus_3.png 1080w,
-/static/fecbdd68153c2e497e8fe3f5ee6d615e/09904/nexus_3.png 1440w,
+          srcset=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/eadb8/nexus_3.png 225w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/eaa93/nexus_3.png 450w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/20101/nexus_3.png 900w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/b2864/nexus_3.png 1350w,
+/static/fecbdd68153c2e497e8fe3f5ee6d615e/35398/nexus_3.png 1800w,
 /static/fecbdd68153c2e497e8fe3f5ee6d615e/f9d9b/nexus_3.png 2770w&quot;
-          sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+          sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
           type=&quot;image/png&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/1987c/nexus_3.png&quot;
+          src=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/20101/nexus_3.png&quot;
           alt=&quot;Darkness&quot;
           title=&quot;&quot;
-          src=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/1987c/nexus_3.png&quot;
+          src=&quot;/static/fecbdd68153c2e497e8fe3f5ee6d615e/20101/nexus_3.png&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
